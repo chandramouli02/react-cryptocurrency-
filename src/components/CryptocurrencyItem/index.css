@@ -1,0 +1,44 @@
+.cryptoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-inline: 30px;
+}
+
+.coin-type {
+  display: flex;
+  align-items: center;
+}
+
+.coin-type > img {
+  height: 40px;
+  width: 40px;
+}
+
+.coin-type > p {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  margin-left: 10px;
+}
+
+.values {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.values > p {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .values {
+    width: 40%;
+  }
+}
